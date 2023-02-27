@@ -12,7 +12,7 @@ This script assumes that you have a Google Sheet with the following requirements
 
 Make sure that your Google Sheet meets these requirements before running the script.
 
-##Usage
+## Usage
 To use this script:
 
 1. Open the Google Sheet where you want to track Intune devices.
