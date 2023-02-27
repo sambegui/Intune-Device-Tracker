@@ -16,17 +16,17 @@ Make sure that your Google Sheet meets these requirements before running the scr
 To use this script:
 
 1. Open the Google Sheet where you want to track Intune devices.
-2. Click on Tools and then Script editor.
+2. Click on `Tools` and then `Script editor`.
 3. Copy and paste the code from this repository into the editor.
 4. Save the script with a name of your choice.
-5. Run the getAzureDevices function by clicking on the play button or by going to Run > getAzureDevices.
+5. Run the `getAzureDevices` function by clicking on the play button or by going to Run > `getAzureDevices`.
 6. The script will retrieve the device name for each user and write the results to the sheet.
 
 ## Notes
 * The script assumes that the primary user UPN is in the "Primary user UPN" column of the sheet.
 * The script writes the device name to the "Devices" column of the sheet.
 * The script uses the Microsoft Graph API to retrieve the device name. Make sure that you have the necessary permissions to access the API.
-* The script requires the authorization scope https://www.googleapis.com/auth/script.external_request to be enabled in the script's Cloud Console project.
+* The script requires the authorization scope `https://www.googleapis.com/auth/script.external_request` to be enabled in the script's Cloud Console project.
 
 ## Credits
 This script was created by a Google Developer.
